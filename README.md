@@ -21,8 +21,8 @@
 ## 📁 프로젝트 구조
 
 ```
-├── config.py                 # AWS 설정 및 하이퍼파라미터
-├── requirements.txt          # Python 패키지 의존성(key 값 제외된 상태)
+├── config.py                 # AWS 설정 및 하이퍼파라미터(key 값 제외된 상태)
+├── requirements.txt          # Python 패키지 의존성
 ├── sm_jobs/
 │   └── sagemaker_train.py   # SageMaker 학습 작업 설정
 └── train/
